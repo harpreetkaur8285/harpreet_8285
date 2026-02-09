@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise question</title>
+</head>
+<body>
+    <form action="/action">
+        <h1>Registration Form</h1>
+
+        <!--text-->
+        <div>
+            <input type="text" name="fname" placeholder="first name" />
+            <input type="text" name="Lname" placeholder="second name" />
+        </div>
+
+         <!--dropdown-->
+        <div>
+            <label for=" gender"> Please select gender</label>
+            <select name="gender" id="gender">
+                <option value="female"> female</option>
+                <option value="male"> male</option>
+                <option value="other"> others</option>
+            </select>
+        </div>
+
+        <!--checkbox-->
+        <div>
+            Do you agree with all terms and conditions :
+            <input type="checkbox" name="terms and conditon " id="terms and condtion" >
+            <lable for="terms and conditon"> yes, I agree</lable>
+        </div>
+        <button type="submit" > register</button>
+    </form>
+</body>
+</html>

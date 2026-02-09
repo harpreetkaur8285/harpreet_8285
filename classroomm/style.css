@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    background-color: yellow;
+}
+
+p{
+    color: blue;
+    background-color: grey;
+}
+
+button{
+    color: green;
+    background-color: orange;
+}
+
+h2{
+    text-decoration: red dotted overline; 
+    font-weight: 500;
+    color: rgb(120,0,120);
+}
+
+h3{
+    color: #ff0000;
+    background-color: #d5c1b7;
+}
